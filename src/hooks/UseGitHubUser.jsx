@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function useGitHubUser(username) {
+function UseGitHubUser(username) {
 
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -31,4 +31,4 @@ function useGitHubUser(username) {
     return{user,loading,error}
 };
 
-export default useGitHubUser;
+export default UseGitHubUser;
