@@ -1,12 +1,34 @@
-# React + Vite
+# 🚀 GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays user data from the **GitHub API** based on user input.
 
-Currently, two official plugins are available:
+## 🎯 Features
+✅ Search for any GitHub user  
+✅ View profile details including avatar, followers, and bio  
+✅ Handles loading, error, and success states  
+✅ Modern UI with **Tailwind CSS**  
+✅ Uses **Axios** for API calls  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+  
+🔗 **Live Demo**:   
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **React** (Vite)
+- **Axios** (API Fetching)
+- **Tailwind CSS** (Styling)
+
+🚀 Usage
+Enter a GitHub username in the search bar.
+Press Enter or click the Search button.
+View user details such as name, bio, followers, and GitHub profile.
+
+📜 License
+This project is licensed under the MIT License.
+
+💙 Made with ❤️ by praneth budati
+
+
