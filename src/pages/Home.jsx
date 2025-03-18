@@ -4,11 +4,12 @@ import ErrorMessage from "../Components/ErrorMessage";
 import SearchBar from "../Components/SearchBar";
 import UserCard from "../Components/UserCard";
 import UseGitHubUser from "../hooks/UseGitHubUser";
+import Repos from "../Components/Repos";
 
 function Home() {
 
     const [username, setUsername] = useState("");
-    const { user, loading, error } = UseGitHubUser(username);
+    const { user, repos, loading, error } = UseGitHubUser(username);
 
     return(
         <div className="min-h-screen flex flex-col items-center bg-gray-950 p-6 text-white">
@@ -17,6 +18,7 @@ function Home() {
             {loading && <Loader/>}
             {error && <ErrorMessage message={error}/>}
             {user && <UserCard user={user}/>}
+            {repos && <Repos repos={repos}/>}
         </div>
     )
 }
