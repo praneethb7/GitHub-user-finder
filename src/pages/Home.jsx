@@ -18,7 +18,7 @@ function Home() {
             {loading && <Loader/>}
             {error && <ErrorMessage message={error}/>}
             {user && <UserCard user={user}/>}
-            {repos && <Repos repos={repos}/>}
+            {repos && <Repos repos={repos} username={username}/>}
         </div>
     )
 }
