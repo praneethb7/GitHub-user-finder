@@ -12,7 +12,7 @@ A simple React application that fetches and displays user data from the **GitHub
 ---
 
   
-🔗 **Live Demo**:   
+🔗 **Live Demo**:   https://praneethb7.github.io/GitHub-user-finder/
 
 ---
 
