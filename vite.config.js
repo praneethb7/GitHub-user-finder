@@ -7,5 +7,9 @@ export default defineConfig({
   plugins: [react(),
   tailwindcss(),
   ],
-  base: '/GitHub-user-finder/'
+  base: '/GitHub-user-finder/', 
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  }
 })
